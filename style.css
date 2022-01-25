@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+
+header,
+footer {
+    height: 20vh;
+    background-color: rgb(1, 165, 230);
+}
+
+main {
+    height: 60vh;
+    background-color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    height: 5vh;
+    width: 15vw;
+    border: 3px solid blue;
+    padding: 5px;   
+    margin: 10px; 
+    text-align: center;
+    font-size: 1.4rem;
+}
