@@ -6,6 +6,11 @@ header,
 footer {
     height: 20vh;
     background-color: rgb(1, 165, 230);
+    padding: 1rem;
+}
+
+header h1 {
+    text-align: center;    
 }
 
 main {
@@ -34,3 +39,21 @@ li {
     text-align: center;
     font-size: 1.4rem;
 }
+
+.start, .choose {
+    width: 10vw;
+    cursor: pointer;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.selected {
+    background-color: blueviolet;
+    box-shadow: cornflowerblue;
+}
+
+.inactive {
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+
